@@ -1,0 +1,89 @@
+
+/* new blue color scheme for styles
+
+#C5D1EB - light blue
+#92AFD7 - medium blue
+#5A7684 - slate blue
+#395B50 - greenish blue
+#1F2F16 - dark hunter greenish
+*/
+
+body {
+	background: #395B50;
+	color: #1F2F16;
+}
+
+.wrapper {
+	min-width: 800px;
+	width: 70%;
+	max-width: 1600px;
+	margin: 0 auto;
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif; 
+	border-radius: 15px;
+	background: #C5D1EB;
+	border: 3px solid #1f2f16;
+}
+ main{
+	 padding: 10px 30px;
+ }
+/* page header */
+header {
+	background: #5A7684;
+	text-align: center;
+	border-top-right-radius: 10px;
+	border-top-left-radius: 10px;
+	background-repeat: no-repeat;
+}
+
+h1{
+	margin: 0 0 0 10px;
+	padding: 10px;
+}
+/* page navigation */
+nav {
+	background: linear-gradient(#5A7684, #C5D1EB);
+	padding-bottom: 10px;
+	text-align: center;
+}
+
+nav ul {
+	list-style-type: none;
+	padding: 10px 0 0 0;
+	margin: 0 0 9px 0;
+}
+
+nav li {
+	display: inline-block;
+}
+
+nav a {
+	color: #92AFD7;
+	padding: 10px 25px;
+	margin: 0 10px 15px 10px;
+	background: #1F2F16;
+	text-decoration: none;
+	border-radius: 25px;
+	border: 3px solid #395B50;
+}
+
+nav a:hover {
+	color: #5A7684;
+}
+
+/* footer & social links */
+footer{
+	text-align: center;
+
+}
+
+hr{
+	width: 20%;
+	border-color: #5A7684;
+	min-width: 200px;
+}
+
+.social {
+  display: inline-block;
+  margin: 0 5px;
+  text-align: center;
+}
