@@ -38,7 +38,8 @@ p {
 }
 /* Items */
 main img {
-  /* margin: auto; */
+   margin: auto;
+   padding-bottom: 10px;
 }
 
 /* container */
