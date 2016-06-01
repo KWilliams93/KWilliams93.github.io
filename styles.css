@@ -24,12 +24,21 @@ body {
 }
 
 p {
-  padding: 10px 30px;
+  padding: 1px 30px;
 }
 
+.picme{
+  float: left;
+  padding-right: 15px;
+  padding-bottom: 15px;
+}
+
+.clear{
+  clear: left;
+}
 /* Items */
 main img {
-
+  /* margin: auto; */
 }
 
 /* container */
@@ -62,6 +71,7 @@ h1 {
 /* page navigation */
 nav {
   text-align: center;
+  padding-bottom: 1em;
 }
 
 nav ul {
