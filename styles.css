@@ -27,6 +27,21 @@ p {
   padding: 10px 30px;
 }
 
+/* Items */
+main img {
+
+}
+
+/* container */
+span{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: space-around;
+  padding-bottom: 20px;
+}
+
 a, a:link, a:active, a:hover, a:visited {
   color: #003300;
   text-decoration: none;
