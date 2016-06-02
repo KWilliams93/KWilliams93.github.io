@@ -1,225 +1,228 @@
 header {
   background-image: url(sunset.jpg);
-	background-position: right;
-	background-repeat: no-repeat;
-	background-color: #000033;
-	height: 60px;
-	padding-top: 15px;
-	text-align: center;
+  background-position: right;
+  background-repeat: no-repeat;
+  background-color: #000033;
+  height: 60px;
+  padding-top: 15px;
+  text-align: center;
 }
 
 body {
-	color: #666666;
-	background-color: #4F6D93;
-	background-image: linear-gradient(to bottom, #FFFFFF, #4F6D93);
-	background-repeat: no-repeat;
-	font-family: Arial,Helvetica,sans-serif;
+  color: #666666;
+  background-color: #4F6D93;
+  background-image: linear-gradient(to bottom, #FFFFFF, #4F6D93);
+  background-repeat: no-repeat;
+  font-family: Arial,Helvetica,sans-serif;
 }
 
 h1 {
-	color: #FFFFFF;
-	margin-bottom: 0;
-	margin-top: 0;
-	font-family: Georgia, "Times New Roman",Serif;
+  color: #FFFFFF;
+  margin-bottom: 0;
+  margin-top: 0;
+  font-family: Georgia, "Times New Roman",Serif;
 }
 
 nav {
-	font-weight: bold;
-	padding: 20px;
-	float: left;
-	width: 160px;
+  font-weight: bold;
+  padding: 20px;
+  float: left;
+  width: 160px;
 }
 
 nav a {
-	text-decoration: none;
-	transition: color 3s ease-out;
+  text-decoration: none;
+  transition: color 3s ease-out;
 }
 
 nav a:link {
-	color: #000033;
+  color: #000033;
 }
 
 nav a:visited {
-	color: #344873;
+  color: #344873;
 }
 
 nav a:hover {
-	color: #FFFFFF;
+  color: #FFFFFF;
 }
 
 nav ul {
-	list-style-type: none;
-	margin: 0;
-	padding-left: 0;
-	font-size: 1.2em;
+  list-style-type: none;
+  margin: 0;
+  padding-left: 0;
+  font-size: 1.2em;
 
 }
+
 main {
-	background-color: #FFFFFF;
-	margin-left: 190px;
-	padding-top: 1px;
-	padding-right: 20px;
-	padding-bottom: 20px;
-	padding-left: 30px;
-	display: block;
+  background-color: #FFFFFF;
+  margin-left: 190px;
+  padding-top: 1px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  padding-left: 30px;
+  display: block;
 }
 
 main ul {
-	list-style-image: url(marker.gif);
+  list-style-image: url(marker.gif);
 }
 
 h2 {
-	color: #3399CC;
-	font-family: Georgia, "Times New Roman", Serif;
-	text-shadow: 1px 1px 1px #CCCCCC;
+  color: #3399CC;
+  font-family: Georgia, "Times New Roman", Serif;
+  text-shadow: 1px 1px 1px #CCCCCC;
 }
 h3 {
-	font-family: Georgia, "Times New Roman", Serif;
+  font-family: Georgia, "Times New Roman", Serif;
 }
 
 dt {
-	color: #000033;
+  color: #000033;
 }
 
 .resort {
-	color: #5C7FA3;
-	font-weight: bold;
+  color: #5C7FA3;
+  font-weight: bold;
 }
 
 #wrapper {
-	margin-left: auto;
-	margin-right: auto;
-	width: 80%;
-	min-width: 960px;
-	max-width: 2048px;
-	background-color: #90C7E3;
-	box-shadow: 3px 3px 3px #333333;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  min-width: 960px;
+  max-width: 2048px;
+  background-color: #90C7E3;
+  box-shadow: 3px 3px 3px #333333;
 }
 
 #contact {
-	font-size: 90%;
+  font-size: 90%;
 }
 
 #homehero {
-	height: 300px;
-	background-image: url(coasthero.jpg);
-	background-repeat: no-repeat;
-	background-size: 100% 100%;
-		margin-left: 190px;
+  height: 300px;
+  background-image: url(coasthero.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  margin-left: 190px;
 }
 
 #yurthero {
-	height: 300px;
-	background-image: url(yurthero.jpg);
-	background-repeat: no-repeat;
-	background-size: 100% 100%;
-	margin-left: 190px;
+  height: 300px;
+  background-image: url(yurthero.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  margin-left: 190px;
 }
 
 #trailhero { height: 300px;
-	background-image: url(trailhero.jpg);
-	background-repeat: no-repeat;
-	background-size: 100% 100%;
-	margin-left: 190px;
+  background-image: url(trailhero.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  margin-left: 190px;
 }
 
 footer {
-	font-size: 75%;
-	font-style: italic;
-	text-align: center;
-	font-family: Georgia, "Times New Roman", Serif;
-	padding: 20px;
-	margin-left: 190px;
-	background-color: #FFFFFF;
-	clear: both;
+  font-size: 75%;
+  font-style: italic;
+  text-align: center;
+  font-family: Georgia, "Times New Roman", Serif;
+  padding: 20px;
+  margin-left: 190px;
+  background-color: #FFFFFF;
+  clear: both;
 }
 
 video, embed {
-	float: right; padding-left: 20px;
+  float: right; padding-left: 20px;
 }
 
 #gallery {
-	position: relative;
+  position: relative;
 }
 
 #gallery ul {
-	list-style-type: none;
-	width: 300px;
+  list-style-type: none;
+  width: 300px;
 }
 
 #gallery li {
-	display: inline;
-	float: left;
-	padding: 10px;
+  display: inline;
+  float: left;
+  padding: 10px;
 }
 
 #gallery img {
-	border-style: none;
+  border-style: none;
 }
+
 #gallery a {
-	text-decoration: none;
-	font-style: italic;
-	color: black;;
+  text-decoration: none;
+  font-style: italic;
+  color: black;;
 }
 
 #gallery span {
-	position: absolute;
-	left: -1000px;
-	opacity: 0;
-	transition:  opacity 3s ease-in-out;
+  position: absolute;
+  left: -1000px;
+  opacity: 0;
+  transition:  opacity 3s ease-in-out;
 }
 
 #gallery a:hover span {
-	position: absolute;
-	top: 16px;
-	left: 320px;
-	text-align: center;
-	opacity: 1;
+  position: absolute;
+  top: 16px;
+  left: 320px;
+  text-align: center;
+  opacity: 1;
 }
 
 .clear {
-	clear: both;
+  clear: both;
 }
 
 table {
-	border: 1px solid #3399CC;
-	width: 80%;
-	border-spacing: 0;
+  border: 1px solid #3399CC;
+  width: 80%;
+  border-spacing: 0;
 }
 
 td, th {
-	border: 1px solid #3399CC; padding: 5px;
+  border: 1px solid #3399CC; padding: 5px;
 }
 
 td {
-	text-align: center;
+  text-align: center;
 }
+
 .text {
-	text-align: left;
+  text-align: left;
 }
 
 tr:nth-of-type(odd) {
-	background-color: #F5FAFC;
+  background-color: #F5FAFC;
 }
 
 label {
-	float: left;
-	display: block;
-	text-align: right;
-	width: 120px;
-	padding-right: 10px;
+  float: left;
+  display: block;
+  text-align: right;
+  width: 120px;
+  padding-right: 10px;
 }
 
 input {
-	display: block;
-	margin-bottom: 20px;
+  display: block;
+  margin-bottom: 20px;
 }
 
 textarea {
-	display: block;
-	margin-bottom: 20px;
+  display: block;
+  margin-bottom: 20px;
 }
 
 input[type="Submit"] {
-	margin-left: 130px;
+  margin-left: 130px;
 }
