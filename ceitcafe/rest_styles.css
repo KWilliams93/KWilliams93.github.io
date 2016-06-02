@@ -1,0 +1,86 @@
+/*Kristen Hawkins Assignment 2 Due Date TBD*/
+/*Assignment 2 Styles*/
+/*General Formatting Styles*/
+body {
+	width: 67%;
+	margin: auto;
+	background-color: #cccccc;
+	background-image: url(bg2.jpg);
+	color: #423b43;
+	background-attachment: fixed;
+	background-position: -40px 0;
+	font-family: "lucida console", "courier new", monospace;
+}
+header{
+	background-color: black;
+	color: #402655;
+	font-size: 150%;
+	padding: 5px;
+	border-radius: 25px 25px 0 0;
+	text-align: center;
+	text-shadow: -1px -1px 1px #f7d3ff, 1px 1px 1px #1a0832;
+	font-family: "Monotype Corsiva";
+}
+#content {
+	background-color: rgba(255,255,255,.90);
+	padding: 25px;
+	padding-top: 1px;
+	border-radius: 0 0 25px 25px;
+}
+nav {
+	background-color: #402655;
+	padding: 20px;
+	padding-left: 50px;
+	padding-bottom: 3px;
+	border-bottom: 10px double #5f4266;
+}
+#wrapper{
+	/*background-color: #5f4266;*/
+	padding: 0;
+	border-radius: 25px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	border: #5f4266 6px solid;
+	min-width: 1100px;
+}
+/*Additional Link Styles*/
+#current {
+	background-color: black;
+}
+nav a{
+	margin-right: 20px;
+	color: white;
+	border-top: 2px solid #eea7ff;
+	border-left: 2px solid #eea7ff;
+	border-right: 2px solid #eea7ff;
+	padding: 5px 25px;
+	font-weight: bold;
+	text-decoration: none;
+}
+nav a:hover {
+	background-color: #eea7ff;
+}
+a {
+	color: #5f4266;
+}
+/*Additional Heading Styles*/
+h2 {
+	color: #1a0832;
+}
+h3 {
+	color: #8f4db7;
+}
+/*Cost Styles*/
+h3 span {
+	color: red;
+	font-weight: normal;
+	font-size: 80%;
+	font-style: italic;
+}
+/*Horizontal Rule Styles*/
+hr {
+	background-color: #5f4266;
+	height: 7px;
+	width: 75%;
+	border: none;
+}
