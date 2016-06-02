@@ -1,0 +1,224 @@
+*{
+font-family: Tahoma;
+}
+
+body{
+background-color: Black;
+}
+
+.fswidth{
+	display: inline-block;
+}
+
+h1{
+    background-color: Grey;
+	color: white;
+	padding-left: 20px;
+	margin-bottom: -10px;
+	line-height: 70px;
+	text-shadow: black 0.1em 0.1em 0.2em;
+}
+
+span{
+	padding: 1px 1px 15px 15px;
+	font-weight: bold;
+	float: left;
+	width: auto;
+	font-size: 20px;
+}
+
+#links{
+	margin: 0px auto;
+	width: 80%;
+	min-width: 1400px;
+	background-color: Grey;
+	
+}
+
+#contents{
+	padding: 0px 0px 0px 10px;
+	height: auto;
+	background-color: #F5F5F5;
+	padding-bottom: 15px;
+}
+
+hr{
+border-color: black;
+width:100%;
+}
+
+table,td,th{
+	border: 1px solid black;
+	border-collapse: collapse;
+	padding: 4px;
+}
+
+.price{
+	font-size: 20px;
+	text-align: right;
+}
+
+#fordlogo{
+	padding-left: 20px;
+	padding-right: 20px;
+	display: inline-block;
+}
+
+#lincolnlogo{
+	padding-left: 20px;
+	display: inline-block;
+}
+
+footer{
+text-align: center;
+margin-top: 2em;
+padding-right: 115px;
+font-size: 20px;
+}
+
+.one{
+	display: inline-block;
+	vertical-align: top;
+	margin-right: 10%;
+	margin-left: 5%;
+	margin-bottom: 25px;
+}
+
+.two{
+	display: inline-block;
+	vertical-align: top;
+	margin-bottom: 25px;
+}
+
+.three{
+	display: inline-block;
+	vertical-align: top;
+	margin-right: 146px;
+	margin-left: 5%;
+	margin-bottom: 25px;
+}
+
+.four{
+	display: inline-block;
+	vertical-align: top;
+	margin-bottom: 25px;
+}
+
+.vehiclename{
+	text-align: left;
+	font-size: 18px;
+}
+
+.five{
+	display: inline-block;
+	vertical-align: top;
+	margin-right: 13%;
+	margin-left: 5%;
+	margin-bottom: 25px;
+}
+
+.six{
+	display: inline-block;
+	vertical-align: top;
+	margin-bottom: 25px;
+}
+
+.seven{
+	display: inline-block;
+	vertical-align: top;
+	margin-right: 146px;
+	margin-left: 5%;
+	margin-bottom: 25px;
+}
+
+.eight{
+	display: inline-block;
+	vertical-align: top;
+	margin-bottom: 25px;
+}
+
+.nine{
+	display: inline-block;
+	vertical-align: top;
+	margin-right: 13%;
+	margin-left: 5%;
+	margin-bottom: 25px;
+}
+
+.ten{
+	display: inline-block;
+	vertical-align: top;
+	margin-bottom: 25px;
+}
+
+.eleven{
+	display: inline-block;
+	vertical-align: top;
+	margin-right: 210px;
+	margin-left: 5%;
+	margin-bottom: 25px;
+}
+
+.twelve{
+	display: inline-block;
+	vertical-align: top;
+	margin-bottom: 25px;
+}
+
+.usedone{
+	display: inline-block;
+	vertical-align: top;
+	margin-right: 9%;
+	margin-left: 5%;
+	margin-bottom: 25px;
+}
+
+.usedtwo{
+	display: inline-block;
+	vertical-align: top;
+	margin-bottom: 25px;
+}
+
+.usedthree{
+	display: inline-block;
+	vertical-align: top;
+	margin-right: 146px;
+	margin-left: 5%;
+	margin-bottom: 25px;
+}
+
+.usedfour{
+	display: inline-block;
+	vertical-align: top;
+	margin-bottom: 25px;
+}
+
+.usedfive{
+	display: inline-block;
+	vertical-align: top;
+	margin-right: 146px;
+	margin-left: 5%;
+	margin-bottom: 25px;
+}
+
+.usedsix{
+	display: inline-block;
+	vertical-align: top;
+	margin-bottom: 25px;
+}
+
+a:link {
+	color: black;
+}
+
+a:visited {
+	color: darkred;
+}
+
+a:hover {
+	color: orange;
+}
+
+a:active {
+	color: darkgreen;
+}
