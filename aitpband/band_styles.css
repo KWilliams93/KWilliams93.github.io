@@ -1,202 +1,201 @@
 /* Main Structual Element Styles */
 body {
-	background-color: black;
-	background-image: url(background1.jpg);
-	background-attachment: fixed;
-	background-size: cover;
+  background-color: black;
+  background-image: url(background1.jpg);
+  background-attachment: fixed;
+  background-size: cover;
 }
 
 #wrapper {
-	background-color: rgb(106, 186, 60);
-	width: 80%;
-	min-width: 1000px;
-	margin: auto;
-	border-radius: 25px;
-	padding: 5px;
+  background-color: rgb(106, 186, 60);
+  width: 80%;
+  min-width: 1000px;
+  margin: auto;
+  border-radius: 25px;
+  padding: 5px;
 }
 
 header {
-	background-color: rgba(49, 30, 68, 1);
-	padding: 5px;
-	border-radius: 25px 25px 0 0;
-	text-align: center;
-	color: #88ccdd;
-	font-family: "Mysterons BRK";
-	letter-spacing: 2px;
+  background-color: rgba(49, 30, 68, 1);
+  padding: 5px;
+  border-radius: 25px 25px 0 0;
+  text-align: center;
+  color: #88ccdd;
+  font-family: "Mysterons BRK";
+  letter-spacing: 2px;
 }
 
 nav {
-	background-color: #881122;
-	padding: 2px;
-	border-bottom: 5px dashed #88ccdd;
+  background-color: #881122;
+  padding: 2px;
+  border-bottom: 5px dashed #88ccdd;
 }
 
 main {
-	padding: 15px;
-	background-color: rgba(26, 26, 26, 1);
-	color: #e6e6e6;
-	border-radius: 0 0 25px 25px;
+  padding: 15px;
+  background-color: rgba(26, 26, 26, 1);
+  color: #e6e6e6;
+  border-radius: 0 0 25px 25px;
 }
 
 hr {
-	width: 60%;
-	height: 7px;
-	border: none;
-	background-color: #881122;
+  width: 60%;
+  height: 7px;
+  border: none;
+  background-color: #881122;
 }
 
 /* Additional Heading Styles */
 h2 {
-	color: #881122;
-	font-family: "Mysterons BRK";
+  color: #881122;
+  font-family: "Mysterons BRK";
 }
 
 h3 {
-	color: #dd2244;
+  color: #dd2244;
 }
 
 /* Link Styles */
 a {
-	color: #dd2244;
+  color: #dd2244;
 }
 
 nav a {
-	background-color: #555599;
-	margin-left: 15px;
-	border: 2px solid #88ccdd;
-	padding: 5px;
-	margin-bottom: 0;
-	color: #88ccdd;
-	text-decoration: none;
+  background-color: #555599;
+  margin-left: 15px;
+  border: 2px solid #88ccdd;
+  padding: 5px;
+  margin-bottom: 0;
+  color: #88ccdd;
+  text-decoration: none;
 }
 
 nav a:hover {
-	background-color: #88ccdd;
-	color: #555599;
+  background-color: #88ccdd;
+  color: #555599;
 }
 
 main img {
-	float: left;
-	border: 5px double #555599;
-	margin: 20px 80px 10px 20px;
+  float: left;
+  border: 5px double #555599;
+  margin: 20px 80px 10px 20px;
 }
 
 .clear {
-	clear: left;
+  clear: left;
 }
 
 /*Upcoming Concerts List Styles*/
 li {
-	padding: 5px;
-	list-style-type: square;
-	word-spacing: 5px;
-
+  padding: 5px;
+  list-style-type: square;
+  word-spacing: 5px;
 }
 
 /* Table Styles */
 table {
-	border: 10px double #555599;
-	width: 75%;
-	min-width: 750px;
-	margin: auto;
-	border-spacing: 0;
+  border: 10px double #555599;
+  width: 75%;
+  min-width: 750px;
+  margin: auto;
+  border-spacing: 0;
 }
 
 /* Caption Styles - bottom & colored */
 caption {
-	color: lightblue;
-	font-family: "Mysterons BRK";
-	margin-top: 10px;
-	caption-side: bottom;
+  color: lightblue;
+  font-family: "Mysterons BRK";
+  margin-top: 10px;
+  caption-side: bottom;
 }
 
 /*Padding to TH & TD cells*/
 th, td {
-	padding: 5px;
+  padding: 5px;
 }
 
 /*Odd row background & text color*/
 tr:nth-of-type(odd) {
-	background-color: linen;
-	color: slategray;
+  background-color: linen;
+  color: slategray;
 }
 
 
 tr:nth-of-type(even) {
-	background-color: #bfaad3;
-	color: lightblue;
+  background-color: #bfaad3;
+  color: lightblue;
 }
 
 /*IMPORTANT!!! Have to use TH to get the border to show up due to border-spacing: 0 in table styles. If used border-collapse, don't need to use TH. */
 
 tr:first-of-type th{
-	background-color: lightblue;
-	color: slategray;
-	border-bottom: #881122 solid 5px;
+  background-color: lightblue;
+  color: slategray;
+  border-bottom: #881122 solid 5px;
 }
 
 form {
-	background-color: #555599;
-	width: 65%;
-	min-width: 650px;
-	margin: auto;
-	padding: 5px;
+  background-color: #555599;
+  width: 65%;
+  min-width: 650px;
+  margin: auto;
+  padding: 5px;
 }
 
 fieldset {
-	border: 3px dotted #88ccdd;
-	margin: 10px;
+  border: 3px dotted #88ccdd;
+  margin: 10px;
 }
 
 legend {
-	font-family: "Mysterons BRK";
-	color: rgba(34, 17, 51, 1);
-	letter-spacing: 3px; /* to make it easier to read while bold */
-	font-weight: bold;
+  font-family: "Mysterons BRK";
+  color: rgba(34, 17, 51, 1);
+  letter-spacing: 3px; /* to make it easier to read while bold */
+  font-weight: bold;
 }
 
 /* Label Styles - so form looks professional */
 label {
-	display: inline-block;
-	width: 45%;
+  display: inline-block;
+  width: 45%;
 }
 
 /* #submit Styles - fieldset around the submit button */
 #submitButton {
-	border-style: double;
-	text-align: center;
-	width: 50%;
-	margin: auto;
+  border-style: double;
+  text-align: center;
+  width: 50%;
+  margin: auto;
 }
 
 /* Submit Button Styles - colors & fonts not required */
 #submitButton input {
-	background-color: rgb(49, 30, 68);
-	border-color: rgb(49, 30, 68);
-	color: #88ccdd;
-	padding: 5px;
-	font-weight: bold;
-	width: 50%; /* this should be modified - but not required */
+  background-color: rgb(49, 30, 68);
+  border-color: rgb(49, 30, 68);
+  color: #88ccdd;
+  padding: 5px;
+  font-weight: bold;
+  width: 50%; /* this should be modified - but not required */
 }
 
 /* errorDiv Styles */
 #errorMessage {
-	display: none;
-	width: 50%;
-	text-align: center;
-	font-family: "Mysterons BRK";
-	padding: 10px;
-	letter-spacing: 3px;
-	margin: 15px auto 5px;
-	background-color: #88ccdd;
-	color: #881122;
-	border: 5px solid #881122;
-	font-weight: bold;
+  display: none;
+  width: 50%;
+  text-align: center;
+  font-family: "Mysterons BRK";
+  padding: 10px;
+  letter-spacing: 3px;
+  margin: 15px auto 5px;
+  background-color: #88ccdd;
+  color: #881122;
+  border: 5px solid #881122;
+  font-weight: bold;
 }
 
 /* Hide collapsible menus at start */
 .hide {
-	display: none;
-	text-indent: 15px;
-	color: rgb(77, 183, 200);
+  display: none;
+  text-indent: 15px;
+  color: rgb(77, 183, 200);
 }
