@@ -1,199 +1,226 @@
-/*Kristen Hawkins Assignment 6 Due Date TBD*/
-/*Assignment 2 Styles*/
-/*general formatting styles*/
 body {
-	width: 67%;
-	margin: auto;
-	background-color: #000000;
-	background-image: url(bg2.jpg);
-	color: #423b43;
-	background-attachment: fixed;
-	background-position: -40px 0;
-	font-family: "lucida console", "courier new", monospace;
+  width: 67%;
+  margin: auto;
+  background-color: #000000;
+  background-image: url(bg2.jpg);
+  color: #423b43;
+  background-attachment: fixed;
+  background-position: -40px 0;
+  font-family: "lucida console", "courier new", monospace;
 }
+
 header{
-	background-color: black;
-	color: #402655;
-	font-size: 150%;
-	padding: 5px;
-	border-radius: 25px 25px 0 0;
-	text-align: center;
-	text-shadow: -1px -1px 1px #f7d3ff, 1px 1px 1px #1a0832;
-	font-family: "Monotype Corsiva";
+  background-color: black;
+  color: #402655;
+  font-size: 150%;
+  padding: 5px;
+  border-radius: 25px 25px 0 0;
+  text-align: center;
+  text-shadow: -1px -1px 1px #f7d3ff, 1px 1px 1px #1a0832;
+  font-family: "Monotype Corsiva";
 }
+
 #content {
-	background-color: rgba(255,255,255,.90);
-	padding: 25px;
-	padding-top: 1px;
-	border-radius: 0 0 25px 25px;
+  background-color: rgba(255,255,255,.90);
+  padding: 25px;
+  padding-top: 1px;
+  border-radius: 0 0 25px 25px;
 }
+
 nav {
-	background-color: #402655;
-	padding: 20px;
-	padding-left: 50px;
-	padding-bottom: 3px;
-	border-bottom: 10px double #5f4266;
+  background-color: #402655;
+  padding: 20px;
+  padding-left: 50px;
+  padding-bottom: 3px;
+  border-bottom: 10px double #5f4266;
 }
+
 #wrapper{
-	/*background-color: #5f4266;*/
-	padding: 0;
-	border-radius: 25px;
-	margin-top: 15px;
-	margin-bottom: 15px;
-	border: #5f4266 3px solid;
-	min-width: 1100px;
-	max-width: 1400px;
+  /*background-color: #5f4266;*/
+  padding: 0;
+  border-radius: 25px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  border: #5f4266 3px solid;
+  min-width: 1100px;
+  max-width: 1400px;
 }
+
 /*Additional Link Styles*/
 #current {
-	background-color: black;
+  background-color: black;
 }
+
 nav a{
-	margin-right: 20px;
-	color: white;
-	border-top: 2px solid #eea7ff;
-	border-left: 2px solid #eea7ff;
-	border-right: 2px solid #eea7ff;
-	padding: 5px 25px;
-	font-weight: bold;
-	text-decoration: none;
+  margin-right: 20px;
+  color: white;
+  border-top: 2px solid #eea7ff;
+  border-left: 2px solid #eea7ff;
+  border-right: 2px solid #eea7ff;
+  padding: 5px 25px;
+  font-weight: bold;
+  text-decoration: none;
 }
+
 nav a:hover{
-	background-color: #eea7ff;
+  background-color: #eea7ff;
 }
+
 a {
-	color: #5f4266;
+  color: #5f4266;
 }
+
 /*Additional Heading Styles*/
 h2 {
-	color: #1a0832;
+  color: #1a0832;
 }
+
 h3 {
-	color: #8f4db7;
+  color: #8f4db7;
 }
+
 /*Cost Styles*/
 h3 span {
-	color: red;
-	font-weight: normal;
-	font-size: 80%;
-	font-style: italic;
+  color: red;
+  font-weight: normal;
+  font-size: 80%;
+  font-style: italic;
 }
+
 .orderName {
-	color: #402655;
-	font-weight: bold;
-	font-size: 110%;
-	font-style: italic;
-	text-shadow: -1px -1px 1px #f7d3ff, 1px 1px 1px #1a0832;
-	letter-spacing: .3em;
+  color: #402655;
+  font-weight: bold;
+  font-size: 110%;
+  font-style: italic;
+  text-shadow: -1px -1px 1px #f7d3ff, 1px 1px 1px #1a0832;
+  letter-spacing: .3em;
 }
+
 .orderedItem {
-	color: #402655;
-	font-weight: normal;
+  color: #402655;
+  font-weight: normal;
 }
+
 /*Horizontal Rule Styles*/
 hr {
-	background-color: #5f4266;
-	height: 7px;
-	width: 75%;
-	border: none;
+  background-color: #5f4266;
+  height: 7px;
+  width: 75%;
+  border: none;
 }
-/*-----------------------------------------------------------------------------------------*/
+
 /*Assignment 3 Styles*/
 /*Menu Item Image Styles*/
 #content img {
-	clear: both;
-	float: left;
-	margin-right: 75px;
-	margin-left: 25px;
-	border: double #8f4db7 5px;
+  clear: both;
+  float: left;
+  margin-right: 75px;
+  margin-left: 25px;
+  border: double #8f4db7 5px;
 }
+
 p br {
-	clear: both;
+  clear: both;
 }
+
 /*Unordered List*/
 #content ul li {
-	list-style-type: square;
-	color: #8f4db7;
+  list-style-type: square;
+  color: #8f4db7;
 }
+
 #content ul li span {
-	color: #423b43;
+  color: #423b43;
 }
+
 /*Table Styles*/
 table {
-	border: 5px solid #402655;
-	width: 65%;
-	margin: auto;
-	border-collapse: collapse;
+  border: 5px solid #402655;
+  width: 65%;
+  margin: auto;
+  border-collapse: collapse;
 }
+
 caption {
-	caption-side: bottom;
-	margin-top: 5px;
-	text-align: left;
-	color: #8f4db7;
+  caption-side: bottom;
+  margin-top: 5px;
+  text-align: left;
+  color: #8f4db7;
 }
+
 table, td, th {
-	padding: 5px;
+  padding: 5px;
 }
+
 tr:nth-of-type(even){
-	background-color: #f7d3ff;
+  background-color: #f7d3ff;
 }
+
 tr:nth-of-type(odd){
-	background-color: #fff;
+  background-color: #fff;
 }
+
 tr:first-of-type, tr:first-of-type th:first-of-type {
-	background-color: #1a0832;
-	color: white;
-	border-bottom: white 3px solid;
-	border-right: none;
+  background-color: #1a0832;
+  color: white;
+  border-bottom: white 3px solid;
+  border-right: none;
 }
+
 th:first-of-type {
-	background-color: #5f4266;
-	border-right: 2px solid black;
-	color: #eea7ff;
+  background-color: #5f4266;
+  border-right: 2px solid black;
+  color: #eea7ff;
 }
+
 td[colspan="3"] {
-	font-weight: bold;
-	color: #000;
+  font-weight: bold;
+  color: #000;
 }
+
 td {
-	text-align: center;
+  text-align: center;
 }
-/*-----------------------------------------------------------------------------------------*/
+
 /*Assignment 4 Styles*/
 /*Form Styles*/
 form {
-	background-color: #be85cc;
-	margin-left: auto;
-	margin-right: auto;
-	width: 55%;
-	padding: 15px;
+  background-color: #be85cc;
+  margin-left: auto;
+  margin-right: auto;
+  width: 55%;
+  padding: 15px;
 }
+
 fieldset {
-	margin: 15px;
-	border: dotted 5px #5f4266;
-	color: #fff;
-	padding: 20px;
+  margin: 15px;
+  border: dotted 5px #5f4266;
+  color: #fff;
+  padding: 20px;
 }
+
 legend {
-	color: black;
-	font-family: "Monotype Corsiva";
-	color: #402655;
-	text-shadow: -1px -1px 1px #f7d3ff, 1px 1px 1px #1a0832;
-	font-size: 150%;
-	font-weight: bold;
+  color: black;
+  font-family: "Monotype Corsiva";
+  color: #402655;
+  text-shadow: -1px -1px 1px #f7d3ff, 1px 1px 1px #1a0832;
+  font-size: 150%;
+  font-weight: bold;
 }
+
 label {
-	display: inline-block;
-	width: 35%;
+  display: inline-block;
+  width: 35%;
 }
+
 #submit {
-	border: 3px solid #f7d3ff;
-	text-align: center;
-	margin: 0 25%;
+  border: 3px solid #f7d3ff;
+  text-align: center;
+  margin: 0 25%;
 }
-/*-----------------------------------------------------------------------------------------*/
+
 /*Assignment 6 Styles*/
 /*Recipe Styles*/
 .collapsed {
-	display: none;
+  display: none;
 }
