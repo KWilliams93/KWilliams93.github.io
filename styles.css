@@ -27,6 +27,7 @@ body {
   max-width: 90%;
   margin: 0 auto;
   font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+  margin-bottom: 8em;
 }
 
 p {
