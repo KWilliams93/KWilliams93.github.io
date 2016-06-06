@@ -10,6 +10,7 @@ old colors
 new colors
 #003300 - very dark green
 #004d00 - forest green
+#008000 - green
 #fff    - light gray
 
 */
@@ -29,9 +30,43 @@ body {
 }
 
 p {
-  padding: 0 30px;
+  margin: 5px 0;
 }
 
+h2 {
+  margin: 0;
+  text-transform: uppercase;
+}
+
+hr {
+  max-width: 800px;
+  margin: 3px 0;
+  border-color: #fff;
+}
+
+.courses ul li:nth-child(even){
+  padding-bottom: 10px;
+}
+
+.courses ul li:nth-child(odd){
+  font-weight: bold;
+  list-style-type: none;
+}
+main ul{
+  margin: 0;
+  padding: 0;
+}
+
+main ul ul ul ul li:nth-child(odd){
+  font-weight: bold;
+}
+.company{
+  font-weight: bold;
+}
+
+.title{
+  font-style: italic;
+}
 .picme{
   float: left;
   padding-right: 15px;
@@ -48,7 +83,7 @@ main a {
 }
 
 /* container */
-span{
+.thumbs{
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -69,9 +104,6 @@ a.current:visited{
 /* page header */
 header {
   text-align: center;
-  border-top-right-radius: 10px;
-  border-top-left-radius: 10px;
-  background-repeat: no-repeat;
 }
 
 h1 {
